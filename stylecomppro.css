@@ -1,0 +1,23 @@
+body {
+  height: 200vh;
+}
+div {
+  height: 200px;
+  border: 3px solid black;
+}
+
+.red {
+  background-color: #ff0000;
+  position: sticky;
+  width: 100%;
+  top: 100px;
+  box-sizing: border-box;
+}
+.child {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+}
